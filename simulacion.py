@@ -1,6 +1,12 @@
 # Simulación de ocupación de vagones
 
-vagones = [80, 50, 30, 90, 60]
+import random
+
+vagones = []
+
+for i in range(5):
+    ocupacion = random.randint(10, 100)
+    vagones.append(ocupacion)
 
 print("Estado de los vagones:\n")
 
